@@ -15,8 +15,4 @@ node {
     }
   }
 
-  stage('Push Image') {
-    sh 'echo "${env.BUILD_NUMBER}"'
-    sh 'echo "latest"'
-  }
 }
