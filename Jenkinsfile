@@ -16,9 +16,7 @@ node {
   }
 
   stage('Push Image') {
-   app.inside {
     sh 'echo "${env.BUILD_NUMBER}"'
     sh 'echo "latest"'
-   }
   }
 }
